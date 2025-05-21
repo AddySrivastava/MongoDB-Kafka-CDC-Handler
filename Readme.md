@@ -1,4 +1,4 @@
-# MongoDB BOB CDC Processor
+# MongoDB JDBC CDC Processor
 
 ## Overview
 The MongoDB BOB CDC Processor integrates Confluent JDBC connector with MongoDB Kafka Connector. It uses the [JDBC Connector](https://www.confluent.io/hub/confluentinc/kafka-connect-jdbc) as a source to capture change events from JDBC source connector, and the [MongoDB Kafka Connector](https://github.com/mongodb/mongo-kafka) as a sink to synchronize those changes to MongoDB. This setup enables efficient, real-time data synchronization between Oracle and MongoDB.
