@@ -32,11 +32,11 @@ import org.bson.BsonValue;
 
 final class OperationHelper {
 
-    private static final String DOCUMENT_KEY = "documentKey";
-    private static final String FULL_DOCUMENT = "fullDocument";
-    private static final String UPDATE_DESCRIPTION = "updateDescription";
-    private static final String UPDATED_FIELDS = "updatedFields";
-    private static final String REMOVED_FIELDS = "removedFields";
+    private static final String DOCUMENT_KEY = "DOCUMENTKEY";
+    private static final String FULL_DOCUMENT = "FULLDOCUMENT";
+    private static final String UPDATE_DESCRIPTION = "UPDATEDESCRIPTION";
+    private static final String UPDATED_FIELDS = "UPDATEDFIELDS";
+    private static final String REMOVED_FIELDS = "REMOVEDFIELDS";
     private static final String TRUNCATED_ARRAYS = "truncatedArrays";
     private static final String DISAMBIGUATED_PATHS = "disambiguatedPaths";
     private static final Set<String> UPDATE_DESCRIPTION_FIELDS =

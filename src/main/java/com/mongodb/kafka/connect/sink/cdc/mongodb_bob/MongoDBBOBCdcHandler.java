@@ -43,7 +43,7 @@ import com.mongodb.kafka.connect.sink.converter.SinkDocument;
 
 public final class MongoDBBOBCdcHandler extends CdcHandler {
 
-    private static final String OPERATION_TYPE = "operationType";
+    private static final String OPERATION_TYPE = "OPERATIONTYPE";
     private static final Map<OperationType, CdcOperation> OPERATIONS =
             unmodifiableMap(
                     new HashMap<OperationType, CdcOperation>() {
